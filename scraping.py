@@ -11,7 +11,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 def scrape_all():
     # Initiate headless driver for deployment
 
-    browser = Browser("chrome", executable_path="chromedriver", headless=True)
+    executable_path = {'executable_path': ChromeDriverManager().install()}
+    browser = Browser('chrome', **executable_path, headless=True)
 
     news_title, news_paragraph = mars_news(browser)
     hemisphere_image_urls=hemisphere(browser)
@@ -65,14 +66,14 @@ def featured_image(browser):
     browser.visit(url)
 
     # Find and click the full image button
-    full_image_elem = browser.find_by_id('full_image')[0]
+    full_image_elem = browser.find_by_tag('button')[1]
     full_image_elem.click()
 
     # Find more info button and click
-    browser.is_element_present_by_text('more info', wait_time=1)
+    # browser.is_element_present_by_text('more info', wait_time=1)
 
-    more_info_elem=browser.links.find_by_partial_text('more info')
-    more_info_elem.click()
+    # more_info_elem=browser.links.find_by_partial_text('more info')
+    # more_info_elem.click()
 
     # Parse the resulting html with soup
     html = browser.html
@@ -82,14 +83,14 @@ def featured_image(browser):
     try:
         # Find the relative image url
 
-        img_url_rel= img_soup.select_one('figure.lede a img').get("src")
-
+        img_url_rel = img_soup.find('img', class_='fancybox-image').get('src') 
     except AttributeError:
         return None
 
     # Use the base url to create an absolute url
 
-    img_url= f'https://www.jpl.nasa.gov{img_url_rel}'
+    img_url = f'https://spaceimages-mars.com/{img_url_rel}'
+
 
     return img_url
 
