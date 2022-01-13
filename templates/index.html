@@ -35,7 +35,7 @@
 
       <!-- Section for Featured Image and Facts table -->
       <div class="row" id="mars-featured-image">
-        <div class="col-lg-8 col-md-8 col-sm-12">
+        <div class="col-md-8">
           <h2>Featured Mars Image</h2>
 
           <!-- if images is False/None/non-existent, then default to error message -->
@@ -48,7 +48,7 @@
 
         <div class="col-lg-4 col-md-4 col-sm-12">
           <!-- Mars Facts -->
-          <div class="row" id="mars-facts">
+          <div class="table" id="mars-facts">
             <h4>Mars Facts</h4>
             {{ mars.facts | safe }}
           </div>
