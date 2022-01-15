@@ -14,7 +14,7 @@ Follow below the goals for this module:
 
 ## Resources
 
-* Data Source: [Mission_to_Mars_Challenge.ipynb](https://github.com/DougUOT/Mission-to-Mars/blob/main/Mission_to_Mars_Challenge.ipynb), [scraping.py](https://github.com/DougUOT/Mission-to-Mars/blob/main/scraping.py), [app.py]https://github.com/DougUOT/Mission-to-Mars/blob/main/app.py) and [index.html](https://github.com/DougUOT/Mission-to-Mars/blob/main/templates/index.html)
+* Data Source: [Mission_to_Mars_Challenge.ipynb](https://github.com/DougUOT/Mission-to-Mars/blob/main/Mission_to_Mars_Challenge.ipynb), [scraping.py](https://github.com/DougUOT/Mission-to-Mars/blob/main/scraping.py), [app.py](https://github.com/DougUOT/Mission-to-Mars/blob/main/app.py) and [index.html](https://github.com/DougUOT/Mission-to-Mars/blob/main/templates/index.html)
 * Software & Data Tools: Jupyter Notebook 6.4.6, Visual Studio Code 1.63.2, Python 3.8.8, MongoDB 4.11.0, Flask 1.1.2, Pandas 1.3.4, Bs4 4.10.0, MongoDB 5.0.5 and PyMongo 4.0.1
 
 ## Results & Code
