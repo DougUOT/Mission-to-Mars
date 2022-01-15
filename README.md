@@ -55,4 +55,46 @@ Full-resolution image URL string and title for each hemisphere image: Valles Mar
 ![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image1_3_6.PNG)
 
 ### Objective 2: Update the Web App with Mars Hemisphere Images and Titles
+
+2.1) The scraping.py file contains code that retrieves the full-resolution image URL and title for each hemisphere image
+
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image2_1.PNG)
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image2_1_1.PNG)
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image2_1_2.PNG)
+
+2.2) The Mongo database is updated to contain the full-resolution image URL and title for each hemisphere image
+
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image2_2.PNG)
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image2_2_1.PNG)
+
+2.3) The index.html file contains code that will display the full-resolution image URL and title for each hemisphere image
+
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image2_3_1.PNG)
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image2_3_2.PNG)
+
+2.4) After the scraping has been completed, the web app contains all the information from this module and the full-resolution images and titles for the four hemisphere images
+
+Page one
+
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image2_4_1.PNG)
+
+Page two
+
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image2_4_2.PNG)
+
 ### Objective 3: Add Bootstrap 3 Components
+
+3.1) The webpage is mobile-responsive
+
+The webpage is mobile-responsive and the image bellow showing on a Galaxy Fold device, follow below the page one and two.
+
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image3_1_Mobile%20version%20Galaxy%20Fold_pag1.PNG)
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image3_1_Mobile%20version%20Galaxy%20Fold_pag2.PNG)
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image3_1_Mobile%20version%20Galaxy%20Fold_pag3.PNG)
+
+3.2) Two additional Bootstrap 3 components are used to style the webpage
+
+Changed the background and add the yellow color on title of the web site Mission to Mars. Follow below code & image
+
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image3_2_2_Two%20add%20style%20code.PNG)
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image3_2_2_Two%20add%20style%20background%20and%20title%20color.PNG)
