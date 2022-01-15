@@ -22,10 +22,37 @@ Follow below the goals for this module:
 ### Objective 1: Scrape High-Resolution Mars Hemisphere Images and Titles
 
 1.1) Make a copy of your Mission_to_Mars.ipynb file, and rename it Mission_to_Mars_Challenge.ipynb.
+
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image1_1.PNG)
+
 1.2) Download the Mission_to_Mars_Challenge_starter_code.ipynb, copy the starter code, and paste at the end of your Mission_to_Mars_Challenge.ipynb file.
+
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image1_2.PNG) 
+
 1.3) In Step 1, use your browser to visit the Mars Hemispheres (Links to an external site.) website to view the hemisphere images.
+
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image1_3.PNG)
+
 1.4) Use the DevTools to inspect the page for the proper elements to scrape. You will need to retrieve the full-resolution image for each of Mars's hemispheres.
 
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image1_3_1.PNG)
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image1_3_2.PNG)
+
+Full-resolution image URL string and title for each hemisphere image: Cerberus Hemisphere Enhanced
+
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image1_3_3.PNG)
+
+Full-resolution image URL string and title for each hemisphere image: Schiaparelli Hemisphere Enhanced
+
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image1_3_4.PNG)
+
+Full-resolution image URL string and title for each hemisphere image: Syrtis Major Hemisphere Enhanced
+
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image1_3_5.PNG)
+
+Full-resolution image URL string and title for each hemisphere image: Valles Marineris Hemisphere Enhanced
+
+![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image1_3_6.PNG)
 
 ### Objective 2: Update the Web App with Mars Hemisphere Images and Titles
 ### Objective 3: Add Bootstrap 3 Components
