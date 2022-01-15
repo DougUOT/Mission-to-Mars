@@ -86,7 +86,8 @@ Page two
 
 3.1) The webpage is mobile-responsive
 
-The webpage is mobile-responsive and the image bellow showing on a Galaxy Fold device, follow below the page one and two.
+The webpage is mobile-responsive and the image bellow showing on a Galaxy Fold device, follow below the pages from one to three.
+
 
 ![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image3_1_Mobile%20version%20Galaxy%20Fold_pag1.PNG)
 ![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image3_1_Mobile%20version%20Galaxy%20Fold_pag2.PNG)
