@@ -95,7 +95,7 @@ The webpage is mobile-responsive and the image bellow showing on a Galaxy Fold d
 
 3.2) Two additional Bootstrap 3 components are used to style the webpage
 
-Changed the background and add the yellow color on title of the web site Mission to Mars. Follow below code & image
+Changed the background image and add the yellow color on title of the web site Mission to Mars. Follow below code & image
 
 ![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image3_2_2_Two%20add%20style%20code.PNG)
 ![](https://github.com/DougUOT/Mission-to-Mars/blob/main/Resources/Images/Mission%20to%20Mars%20image3_2_2_Two%20add%20style%20background%20and%20title%20color.PNG)
