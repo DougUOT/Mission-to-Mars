@@ -4,9 +4,8 @@
 
 We will help a junior data scientist to write a script that will gather all the information in one convenient location. We will gather data about the mission to Mars from all over the web and display it in a central location without manually gathering the data. In order to do that, we will build a web application that will scrape new data every time we click a button. We will write a Python script to navigate the web pages to collect the correct information. After this process, we need a place to store it. Instead of using an SQL database with its structural rules, we will use a NoSQL database MongoDB. We will be downloading tables, paragraphs and images. After that, we will put it all together in a web application of her own; for that reason, we will need to use Flask. Flask is a web framework that allows us to create a web application using Python and then customize it with HTML and CSS.
 
-This assignment is related to the Bootcamp Data Analytics from the University of Toronto and comprises the goals below for this module: 
 
-Follow below the goals for this module:
+Follow below the goals for this project:
 
 1) Objective 1: Scrape High-Resolution Mars Hemisphere Images and Titles
 2) Objective 2: Update the Web App with Mars Hemisphere Images and Titles
